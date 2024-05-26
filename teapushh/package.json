@@ -1,9 +1,18 @@
 {
   "name": "teapushh",
-  "version": "1.3.4",
+  "version": "1.3.5",
+  "description": "A Node.js application to convert text to ASCII art using figlet.",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catsmile100/teapushmain.git"
+  },
+  "homepage": "https://github.com/catsmile100/teapushmain#readme",
+  "author": "catsmile100",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "figlet": "^1.5.0"
